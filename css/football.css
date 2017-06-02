@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+header,
+footer {
+	width: 100%;
+	height: 2.25rem;
+}
+
+header {
+	background: #0CC444;
+	display: flex;
+	text-align: center;
+	line-height: 2.25rem;
+}
+
+header>a {
+	width: 1.5rem;
+	height: 1.5rem;
+	font-size: 1rem;
+	position: absolute;
+	top: .2rem;
+	color: white;
+}
+header>a span{
+	line-height: 2.25rem;
+}
+.demo{
+	width: auto;
+	height: 1.4rem;
+	display: flex;
+	margin-top: .425rem;
+	border-radius: .7rem;
+	overflow: hidden;
+	background: #0ACE63;
+}
+.demo a{
+	width: 3rem;
+	height: 1.4rem;
+	display: block;
+	box-sizing: border-box;
+	font-size: .7rem;
+	line-height: 1.4rem;
+	color: #e0e0e0;
+}
+.demo a:nth-child(1){
+	background: #09D985;
+	color: white;
+}
+.left {
+	left: .375rem;
+}
+
+.right {
+	right: .375rem;
+}
+header div {
+	margin: 0 auto;
+	height: 100%;
+}
+nav{
+	width: 100%;
+	height: 1.75rem;
+	background: white;
+	border-bottom: 0.05rem solid #ccc;
+	box-sizing: border-box;
+	display: flex;
+}
+nav a{
+	display: block;
+	width: 33.33%;
+	height: 100%;
+	line-height: 1.75rem;
+	text-align: center;
+	font-size: .7rem;
+	color: black;
+}
+nav a.show{
+	border-bottom: 0.08rem solid #0CC444;
+	box-sizing: border-box;
+	color: #0CC444;
+}
+section {
+	flex: 1;
+	width: 100%;
+	overflow: auto;
+}
+.cen{
+	width: 7.9rem;
+	padding: .2rem 0 0 .2rem;
+	float: left;
+}
+.cen img{
+	width: 100%;
+	height: 5.75rem;
+	margin: 0;
+	padding: 0;
+}
+.cen a{
+	display: block;
+	color: #000;
+	font-size: .65rem;
+	font-weight: bold;
+	margin-top: -.2rem;
+	line-height: 1rem;
+}
+
+footer {
+	background: white;
+	border-top: 0.05rem solid #ccc;
+	box-sizing: border-box;
+	display: flex;
+}
+.ftr{
+	height: 100%;
+	flex: 1;
+	color: #D6D6D6;
+	display: flex;
+	flex-direction: column;
+	background: white;
+	text-align: center;
+	padding-top: .2rem;
+}
+.ftr a{
+	color: #D6D6D6;
+	font-size: .7rem;
+}
+.ftr.che{
+	color: #0CC444;
+}
+.ftr.che a{
+	color: #0CC444;
+}
+.cam{
+	width: 2.5rem;
+	height: 2.5rem;
+	background: #fff;
+	border-radius: 1.25rem;
+	box-sizing: border-box;
+	border: .05rem solid #ccc;
+	margin-top: -.25rem;
+	line-height: 2.5rem;
+	text-align: center;
+	color: #D6D6D6;
+	font-size: 1.5rem;
+}
